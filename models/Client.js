@@ -1,9 +1,10 @@
 const mongoose =require ('mongoose');
 var Client=mongoose.model('Client', {
-    Code_client:{type: String},
-    marque:{type: String},
-    puissanceVoiture:{type: String},
-    nombrePlace:{type: Number}
+    CodeCl:{type: Number},
+    NomCl:{type: String},
+    AdressCl:{type: String},
+    TelCl:{type: Number},
+    MailCl:{type : String },
 
 });
 module.exports={ Client };
